@@ -107,3 +107,25 @@ h3 {
 .redzone h2 {
     margin: 0 0 10px 30px;
 }
+.offres h2{
+    margin: 50px 0;
+}
+.choix {
+    width: 200px;
+    box-shadow: 0 5px 10px 5px #8e8e94;
+    padding: 0 30px;
+    margin: auto;
+}
+.offres .container {
+    text-align: center;
+}
+.choix .grisfonce {
+    text-align: left;
+}
+.choix button {
+    margin: 20px 0;
+}
+.choix .bleu {
+    margin: 0 0 30px 0;
+    font-weight: bolder;
+}
