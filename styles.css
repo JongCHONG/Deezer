@@ -106,9 +106,12 @@ h3 {
 }
 .redzone h2 {
     margin: 0 0 10px 30px;
-}
+}   
 .offres h2{
     margin: 50px 0;
+}
+.offres .flex {
+    margin: 0 0 50px 0;
 }
 .choix {
     width: 200px;
