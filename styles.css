@@ -93,3 +93,17 @@ h3 {
 .margindetail{
     margin: 0 30px;
 }
+.redzone {
+    background-color: #ef5466;
+    padding: 40px;
+    align-content: center;
+    color: white;
+}
+.redzone img {
+    margin: 0 5px;
+    height: 5%;
+    width: 5%;
+}
+.redzone h2 {
+    margin: 0 0 10px 30px;
+}
