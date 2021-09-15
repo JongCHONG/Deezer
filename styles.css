@@ -54,9 +54,19 @@ nav button:hover{
 .diapo {
     background: url(img/hero.png) no-repeat right;
     background-size: 50%;
-    height: 400px;
     margin-right: 50px;
+    padding: 40px 0;
 }
 .diapo p {
-    font-size: large;
+    width: 400px;
+    font-size: 40px;
+    font-weight: bolder; 
+}
+.diapo button {
+    margin: 20px 10px;
+    background-color: white;
+}
+.diapo button:hover{
+    background-color: #ef5466;
+    color: white;
 }
