@@ -128,7 +128,20 @@ h3 {
 .choix button {
     margin: 20px 0;
 }
-.choix .bleu {
+.choix a, .promotion a {
+    text-decoration: none;
     margin: 0 0 30px 0;
+    display: block;
     font-weight: bolder;
+}
+.promotion{
+    background-color: #f9f9f9;
+}
+.promotion .flex{
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+.promo {
+    max-width: 800px;
 }
