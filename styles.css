@@ -57,6 +57,9 @@ nav button:hover{
     margin-right: 50px;
     padding: 40px 0;
 }
+.image{
+    display: none;
+}
 .diapo p {
     width: 400px;
     font-size: 40px;
@@ -162,4 +165,40 @@ h3 {
 .footer .flex {
     padding: 20px;
     justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    header img {
+        height: 30%;
+        width: 30%
+    }
+    .diapo h2, .diapo p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .diapo .container{
+        width:100%;
+        margin:auto;
+    }
+    .diapo .container .flex{
+        flex-direction: column;
+    }
+    .diapo{
+        background-image: none;
+    }
+    .diapo h2, .diapo p {
+        width: 100%
+    }
+    .image{
+        display: block;
+    }
+    .image img {
+        height: 100%;
+        width: 100%
+    }
 }
