@@ -96,8 +96,10 @@ h3 {
 .redzone {
     background-color: #ef5466;
     padding: 40px;
-    align-content: center;
     color: white;
+}
+.redzone .flex {
+    align-items: center;
 }
 .redzone img {
     margin: 0 5px;
@@ -144,4 +146,19 @@ h3 {
 }
 .promo {
     max-width: 800px;
+}
+.footer {
+    background-color: black;
+    height: 200px;
+}
+.telecharger {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 100px;
+    padding: 10px;
+    margin: 40px;
+}
+.footer .flex {
+    justify-content: center;
 }
