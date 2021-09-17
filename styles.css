@@ -104,10 +104,13 @@ h3 {
 .redzone .flex {
     align-items: center;
 }
+.redzone .icon{
+    width: 80%;
+}
 .redzone img {
     margin: 0 5px;
-    height: 5%;
-    width: 5%;
+    height: 10%;
+    width: 10%;
 }
 .redzone h2 {
     margin: 0 0 10px 30px;
@@ -191,6 +194,7 @@ h3 {
     }
     .diapo{
         background-image: none;
+        margin:auto;
     }
     .diapo h2, .diapo p {
         width: 100%
