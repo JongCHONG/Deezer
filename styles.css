@@ -57,6 +57,9 @@ nav button:hover{
     margin-right: 50px;
     padding: 40px 0;
 }
+.image{
+    display: none;
+}
 .diapo p {
     width: 400px;
     font-size: 40px;
@@ -96,17 +99,23 @@ h3 {
 .redzone {
     background-color: #ef5466;
     padding: 40px;
-    align-content: center;
     color: white;
+}
+.redzone .flex {
+    align-items: center;
+}
+.redzone .icon{
+    width: 80%;
 }
 .redzone img {
     margin: 0 5px;
-    height: 5%;
-    width: 5%;
+    height: 10%;
+    width: 10%;
 }
 .redzone h2 {
     margin: 0 0 10px 30px;
 }   
+
 .offres h2{
     margin: 50px 0;
 }
@@ -128,7 +137,105 @@ h3 {
 .choix button {
     margin: 20px 0;
 }
-.choix .bleu {
+.choix a, .promotion a {
+    text-decoration: none;
     margin: 0 0 30px 0;
+    display: block;
     font-weight: bolder;
+}
+.promotion{
+    background-color: #f9f9f9;
+}
+.promotion .flex{
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+.promo {
+    max-width: 800px;
+}
+.footer {
+    background-color: black;
+
+}
+.telecharger {
+    color: white;
+    border: 1px solid white;
+    border-radius: 4%;
+    width: 130px;
+    padding: 10px;
+    margin: 20px;
+}
+.footer .flex {
+    padding: 20px;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        text-align: center;
+    }
+    nav {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    header img {
+        height: 30%;
+        width: 30%
+    }
+    .diapo h2, .diapo p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .diapo .container{
+        width:100%;
+        margin:auto;
+    }
+    .diapo .container .flex{
+        flex-direction: column;
+    }
+    .diapo{
+        background-image: none;
+        margin:auto;
+    }
+    .diapo h2, .diapo p {
+        width: 100%
+    }
+    .image{
+        display: block;
+    }
+    .image img {
+        height: 100%;
+        width: 100%
+    }
+    .offres .flex {
+        flex-direction: column;
+    }
+    .phone {
+        display: none;
+    }
+    .deezer .flex {
+        flex-direction: column;
+    }
+    .redzone .flex{
+        flex-direction: column-reverse;
+    }
+    .redzone .icon{
+        flex-direction: row;
+        margin: 30px 0 0 0;
+    }
+    .promotion .flex {
+        flex-direction: column;
+    }
+    .promo {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .choix {
+        margin-bottom: 40px;
+    }
+    .promotion button {
+        margin-bottom: 30px;
+    }
 }
